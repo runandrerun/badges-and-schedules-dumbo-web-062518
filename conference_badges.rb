@@ -12,8 +12,9 @@ def batch_badge_creator(arr)
   return badges
 end
 
-def assign_rooms(badges)
-  rooms []
+def assign_rooms(arr)
+  rooms = []
   counter = 1
-  puts "Hello #{arr}! You'll be assigned to room #{room}!"
+  arr.each { |x| puts "Hello #{x}! You'll be assigned to room #{room}!" }
+  counter += 1
 end
