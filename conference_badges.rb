@@ -15,7 +15,7 @@ end
 def assign_rooms(arr)
   rooms = []
   counter = 1
-  arr.each { |x| rooms << "Hello, #{x}! You'll be assigned to room #{counter}!", counter += 1 }
+  arr.each { |x| rooms << "Hello, #{x}! You'll be assigned to room #{counter}!" counter += 1 }
   
   return rooms
 end
