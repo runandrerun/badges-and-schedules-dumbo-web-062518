@@ -7,7 +7,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(arr)
-  arr.each { |x| puts "Hello, my name is #{x}" }
+  badges = arr.each { |x| puts "Hello, my name is #{x}" }
   return arr
 end
 
